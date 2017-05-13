@@ -141,7 +141,7 @@
 $this->load->view($module . '/' . $view_file);
 ?> 
 <br>
- <?php echo Modules::run('quick_search/show_quick_search'); ?>
+
 <footer class="container">
     <div class="row">
         <div class="col-md-6">
