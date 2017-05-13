@@ -3,16 +3,7 @@
     <div class="row">
         <div class="col-md-9">
 		<br>
-            <div class="well">
-                       <h3>  code.yibroke.com is a personal website of Kinny (Vuong Tran).<br> Its objectives are:</h3>
-                       <ul>
-                           <li>Help him document his code.</li>
-                           <li>Develop his skills through articles.</li>
-                           <li>Store common code so he can copy and reuse.</li>
-                           <li>Share his knowledge</li>
-                       </ul>
-                       
-                   </div>
+
                      <div class="page-header">
                 <h1>Categories</h1>
 

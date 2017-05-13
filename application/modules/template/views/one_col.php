@@ -144,37 +144,12 @@ $this->load->view($module . '/' . $view_file);
 
 <footer class="container">
     <div class="row">
-        <div class="col-md-6">
-       <?php echo Modules::run('page/show_page'); ?>
-       </div>
-        <div class="col-md-6">
-       <ul class="list-inline text-right">
-            <li><a href="#" target="_blank" class="btn btn-social-icon btn-facebook"> <span class="fa fa-facebook"></span> </a></li>
-            <li><a href="#" target="_blank" class="btn btn-social-icon btn-google"> <span class="fa fa-google-plus"></span> </a></li>
-            <li><a href="#" target="_blank" class="btn btn-social-icon btn-twitter"> <span class="fa fa-twitter"></span> </a></li>
-       </ul>
-       </div>
+        <div class="col-md-12 text-center">
+            <p>Web build with Codeigniter by <strong>Kinny</strong></p>
+            <p>Email: cotcac@gmail.com</p>
+      
     </div>
-    <br>
-    <br>
-    <div class="row">  
-         <div class="col-md-12">  
-             <div class="row">
-                 <div class="col-md-3">
-                     <p><span class="glyphicon glyphicon-copyright-mark"></span> <a href="<?php echo base_url(); ?>">webforum</a></p>
-                 </div>
-                   <div class="col-md-3">
-                       <p><span class="glyphicon glyphicon-phone"></span> <?php echo $this->reuse_model_function->_detail('shop_info','id',1)->phone; ?>  </p>
-                 </div>
-                   <div class="col-md-4">
-                    <p>  <span class="glyphicon glyphicon-envelope"></span> <?php echo $this->reuse_model_function->_detail('shop_info','id',1)->email; ?></p>
-                    
-                 </div>
-             </div> 
-        </div>
-    </div>
-    <br>
-    <br>
+
     <br>
 </footer>
 <?php $this->load->view('user/login_form'); ?>
