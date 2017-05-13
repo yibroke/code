@@ -1,0 +1,143 @@
+
+
+/*Remove padding left for ol*/
+ol{
+
+    padding: 0px;
+}
+/*Color picker*/
+
+.colorpicker-component{
+    width: 150px;
+}
+
+/*End Color picker*/
+ol li{ list-style:none }
+.my-comment{
+    max-width: 700px;
+}
+.myform{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black; 
+}
+.mywap{
+    background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+
+.h1, h1 {
+    font-size: 24px;
+}
+.h1_td{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.table > tbody > tr:first-child > td {
+    border: none;
+}
+
+.progress-bar[aria-valuenow="0"] {
+    color: gray;
+    min-width: 3%;/*This is to make the padding a litle bit more*/
+    background: transparent;
+    box-shadow: none;
+}
+#load {
+    display: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+/*Change padding for h1 in review*/
+
+#your-question{
+    padding: 10px;
+}
+#tag2 img{
+    border: 1px solid grey;
+    margin: 5px;
+    width: 150px;
+}
+.pre-opt{
+    padding: 10px;
+
+}
+.vote{
+    margin-top: 30px; 
+    margin-left: 10px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
+#edit_load,#write_load{
+    display: none;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+iframe {
+    max-width: 100%;
+    max-height: 56.25vw; /* 315/560 = .5625 */
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+.col-lg-3:nth-child(4n+1){
+    clear: left;
+}
+.navbar-brand {
+    padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+    height: 60px;
+    padding-top: 5px; /* firefox bug fix */
+    width: auto;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.slider-img{
+    padding-top: 20px;
+}
+.thumbnail{
+    border: none;
+}
+@media (max-width: 1000px)
+{
+    .my_left_nav
+    {
+        display: none;
+    }
+}
+.my_left_nav
+{
+    background-color: #ccc;
+}

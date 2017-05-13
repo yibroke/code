@@ -1,0 +1,324 @@
+
+.red{
+    background-color: red;
+    color: white;
+    
+}
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+/*Slider*/
+  .item_galery{
+      
+        height: 400px;
+    }
+  #myCarousel img{
+        max-height: 398px;
+        margin: 0 auto;/*center the image*/
+    }
+    .carousel-indicators li {
+    background-color: green;
+    border: 1px solid grey;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    background-color: red;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    
+}
+/*End slider*/
+
+/*search*/
+ #ketqua{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    height:auto;
+     z-index: 1000;
+     position: absolute;
+     color: white;
+  }
+/*search*/
+/*reply form*/
+.reply-form{
+    display: none;
+}
+/*comment*/
+.comment_profile{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.money{
+    font-size: 20px;
+}
+/*comment*/
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 30px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+/*NAV BAR*/
+.nav-stacked {
+  background-color: #e6e6e6;
+}
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar {
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+.navbar-inverse {
+  background-color: black;
+  border: orangered;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: grey;
+ 
+}
+.navbar .nav .active > a {  
+      
+  
+   color: grey;
+ 
+}
+/**END NAV BAR/
+/*SLIDER*/
+.my-container-slider {
+  background-image: url(../img/structure/slider-bg.jpg);
+}
+/*remove the left and right gradiun background for slider */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+/*END SLIDER*/
+.thumbnail_cover{
+     padding: 5px;
+     float: left;
+    margin-bottom: 18px;
+    height: 350px;
+}
+/*Remove padding left for ol*/
+/*make border and space between col*/
+.classWithPad { 
+    margin:10px; 
+    padding:10px; 
+    border: 1px solid #dfdfdf;
+    border-radius: 5px; 
+}
+/*
+.classWithPad:hover { 
+    margin:10px; 
+    padding:10px; 
+    border: 1px solid grey; 
+   
+}*/
+ol{
+
+    padding: 0px;
+}
+/*Color picker*/
+
+.colorpicker-component{
+    width: 150px;
+}
+
+/*End Color picker*/
+ol li{ list-style:none }
+.my-comment{
+    max-width: 700px;
+}
+.myform{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black; 
+}
+.mywap{
+    background: url(http://i.imgur.com/GHr12sH.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+}
+
+.h1, h1 {
+    font-size: 24px;
+}
+.h1_td{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.table > tbody > tr:first-child > td {
+    border: none;
+}
+
+.progress-bar[aria-valuenow="0"] {
+    color: gray;
+    min-width: 3%;/*This is to make the padding a litle bit more*/
+    background: transparent;
+    box-shadow: none;
+}
+#load,#load_login,.load {
+    display: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+/*make modal-sm bigger so it fix facebook like widget*/
+.modal-sm{
+    width: 400px;
+}
+
+/*# sourceMappingURL=style.css.map */
+#edit_load,#write_load{
+    display: none;
+}
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+iframe {
+    max-width: 100%;
+    max-height: 56.25vw; /* 315/560 = .5625 */
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+.col-lg-3:nth-child(4n+1){
+    clear: left;
+}
+.navbar-brand {
+    padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+    max-height: 60px;
+    padding-top: 25px; /* firefox bug fix */
+    width: auto;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.slider-img{
+    padding-top: 20px;
+}
+.thumbnail{
+    border: none;
+}
+.phone_brand{
+    display: none;
+}
+@media (max-width: 767px)
+{
+    .my_left_nav
+    {
+        display: none;
+    }
+    .phone_brand{
+    display: block;
+    background-color:black;
+    padding: 15px 5px 0 5px;
+
+   }
+    .language-bar-top{
+        display: none;
+    }
+    .header_web{
+        display: none;
+    }
+}
+
+/*Center the card on mobile*/
+.navbar-card{
+    margin: 0;
+    float: none;
+}
+@media screen and (min-width: 767px)
+{
+    .header_mobile{
+        display: none;
+    }
+}
+.my_left_nav
+{
+    background-color: #ccc;
+}
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
